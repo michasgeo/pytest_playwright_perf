@@ -1,0 +1,6 @@
+Timestamp,User ID,Status,Load Time (ms)
+2025-05-15 18:02:35,1,Failed: Timeout 60000ms exceeded.,N/A
+2025-05-15 18:03:50,2,Failed: Timeout 60000ms exceeded.,N/A
+2025-05-15 18:05:05,3,Failed: Timeout 60000ms exceeded.,N/A
+2025-05-15 18:06:22,4,Failed: Timeout 60000ms exceeded.,N/A
+2025-05-15 18:07:36,5,Failed: Timeout 60000ms exceeded.,N/A
