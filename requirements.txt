@@ -1,3 +1,7 @@
-pytest
-pytest-asyncio
-playwright
+pip install pytest
+pip install pytest-asyncio
+pip install playwright
+pip install load_dotenv
+pip install asyncio
+playwright install
+
