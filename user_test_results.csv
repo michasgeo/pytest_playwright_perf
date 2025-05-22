@@ -1,0 +1,55 @@
+Timestamp,User,Status,Load Time (ms)
+2025-05-19 12:25:25,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""link"", name=""News"")
+    - locator resolved to <a class=""nav-link"" href=""news.html"">News</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - element is outside of the viewport
+     - retrying click action
+       - waiting 500ms
+",N/A
+2025-05-19 12:26:16,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""link"", name=""News"")
+    - locator resolved to <a class=""nav-link"" href=""news.html"">News</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - element is outside of the viewport
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - element is outside of the viewport
+     - retrying click action
+       - waiting 500ms
+",N/A

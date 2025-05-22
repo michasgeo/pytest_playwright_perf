@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv("users.env")
 REPORT_URL = 'https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&clientSideAuth=0&bookmarkGuid=0bd1be94a0d3bb5d4302'
+
 def get_user_credentials(user_id):
     username_key = f"PBI_USERNAME_{user_id}"
     password_key = f"PBI_PASSWORD_{user_id}"
@@ -18,26 +19,24 @@ def get_user_credentials(user_id):
 CSV_FILENAME = "performance_log.csv"
 LOG_FILENAME = "performance_debug.log"
 
-if not os.path.exists(CSV_FILENAME):
-    with open(CSV_FILENAME, mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Timestamp", "User ID", "Status", "Load Time (ms)"])
-
-
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[logging.FileHandler(LOG_FILENAME, mode='w'), logging.StreamHandler()]
 )
 logger = logging.getLogger(__name__)
-
 results = []
+
 @pytest.mark.asyncio
-@pytest.mark.parametrize("user_id", range(1, 21))  # Simulate 70 users
+@pytest.mark.parametrize("user_id", range(11, 16))  # Simulate 5 users
 async def test_powerbi_load(user_id):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-        context = await browser.new_context()
+        context = await browser.new_context(ignore_https_errors=True, bypass_csp=True, 
+                              record_har_path="perf.har",
+                              locale='en-US', user_agent='PlaywrightTestAgent')
+        
+        
         page = await context.new_page()
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         start_time = time.time()
@@ -57,27 +56,22 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("button", name="Sign in").click()
             await page.get_by_role("button", name="Yes").click()
 
-            
-
-            # Clear Filters (ensure no cached filters before test actions)
+            # Clear Filters
             logger.info(f"[User {user_id}] Clearing any pre-applied filters...")
             try:
                 await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
+                await page.wait_for_timeout(10000)
                 logger.info(f"[User {user_id}] 🧹 Filters cleared successfully.")
-                await page.wait_for_timeout(1500)  # Wait for UI to apply changes
             except Exception as clear_err:
                 logger.warning(f"[User {user_id}] ⚠️ 'Clear Filters' button not found or failed: {clear_err}")
 
-            # Check that no dimension is selected
             # Deselect any preselected dimensions
             logger.info(f"[User {user_id}] Deselecting any preselected dimensions...")
             try:
                 selected_paths = page.locator('path.sub-selectable.selected')
                 count = await selected_paths.count()
-
                 if count > 0:
                     for i in range(count):
-                        # Click each selected tile to deselect
                         await selected_paths.nth(i).click()
                     logger.info(f"[User {user_id}] 🧹 Deselected {count} dimensions.")
                 else:
@@ -85,18 +79,23 @@ async def test_powerbi_load(user_id):
             except Exception as e:
                 logger.warning(f"[User {user_id}] ⚠️ Failed to check/deselect dimensions: {e}")
 
-
-
+            # Interactions
             await page.get_by_role("button", name="Κατάστημα").click()
+            await page.wait_for_timeout(10000)
+            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").get_by_label("Collapsed").click()
+            await page.wait_for_timeout(10000)
+            #await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").wait_for(state="visible", timeout=5000)
+            await page.get_by_role("button", name="Expanded").click()
+
+            await page.get_by_role("button", name="Μητρικός").click()
             await page.get_by_role("button", name="MasClub").click()
-            await page.get_by_role("button", name="Μήνας").click()
-            # await page.get_by_role("button", name="Δομή Ειδών Επ. 1").click()
-            # await page.get_by_role("button", name="Δομή Ειδών Επ. 2").click()
-            # await page.get_by_role("button", name="Δομή Ειδών Επ. 3").click()
+            await page.get_by_role("button", name="Δομή Ειδών Επ. 1").click()
+            await page.get_by_role("button", name="Δομή Ειδών Επ. 2").click()
+            await page.get_by_role("button", name="Δομή Ειδών Επ. 3").click()
             await page.get_by_role("button", name="Δομή Ειδών Επ. 4").click()
             await page.get_by_role("button", name="Πόλη").click()
-
-
+            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
 
             # ==== SCENARIO INTERACTIONS ====
             # Slicer interaction
@@ -104,9 +103,7 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("treeitem", name="- ΦΡΕΣΚΑ ΠΡΟΙΟΝΤΑ").locator("span").first.click()
             await page.get_by_role("group", name="Κατηγορίες Ειδών").locator("i").click()
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
-            await page.get_by_role("button", name="Κατάστημα").click()
-            await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").get_by_label("Collapsed").click()
-            await page.get_by_role("button", name="Expanded").click()
+            #await page.get_by_role("button", name="Κατάστημα").click()
             
 
             # Filters
@@ -176,6 +173,7 @@ async def test_powerbi_load(user_id):
 
             await page.get_by_label("S3 - Πωλήσεις Ειδών από 01/01").get_by_test_id("visual-title").get_by_text("S3 - Πωλήσεις Ειδών από 01/01").click()
             await page.get_by_test_id("drill-down-level-grouped-btn").click()
+            await page.wait_for_timeout(50000)
             await page.get_by_label("S3 - Πωλήσεις Ειδών από 01/01").get_by_test_id("visual-title").get_by_text("S3 - Πωλήσεις Ειδών από 01/01").click()
             await page.get_by_test_id("drill-up-level-btn").click()
 
@@ -187,6 +185,7 @@ async def test_powerbi_load(user_id):
             # await page.wait_for_selector("div.visual-container")
             # await page.get_by_role("tab", name="S5 - Πωλήσεις Ειδών/Προσφορών").click()
             # await page.wait_for_selector("div.visual-container")
+
 
             load_time_ms = round((time.time() - start_time) * 1000)
             logger.info(f"✅ [User {user_id}] Loaded in {load_time_ms} ms")
@@ -200,8 +199,9 @@ async def test_powerbi_load(user_id):
             with open(CSV_FILENAME, mode="a", newline="", encoding="utf-8") as file:
                 writer = csv.writer(file)
                 writer.writerow([timestamp, user_id, f"Failed: {str(e)}", "N/A"])
-
-
         finally:
             await browser.close()
 
+def teardown_module(module):
+    logger.info(f"📄 Results saved to {CSV_FILENAME}")
+    logger.info(f"📝 Debug log saved to {LOG_FILENAME}")

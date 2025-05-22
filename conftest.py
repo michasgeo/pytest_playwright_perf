@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv("users.env")
 
 @pytest_asyncio.fixture(scope="session")
 async def browser_context():
@@ -20,13 +20,16 @@ async def browser_context():
     await playwright.stop()
 
 
-@pytest_asyncio.fixture(scope="session")
-def credentials():
-    """Provides login credentials from environment variables"""
+@pytest_asyncio.fixture(scope="function")
+def credentials(request):
+    user_id = request.param
+    username_key = f"PBI_USERNAME_{user_id}"
+    password_key = f"PBI_PASSWORD_{user_id}"
     return {
-        "username": os.getenv("PBI_USERNAME"),
-        "password": os.getenv("PBI_PASSWORD"),
+        "username": os.getenv(username_key),
+        "password": os.getenv(password_key)
     }
+
 
 
 @pytest_asyncio.fixture(scope="function")

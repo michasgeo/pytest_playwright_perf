@@ -1,6 +1,836 @@
 Timestamp,User ID,Status,Load Time (ms)
-2025-05-15 18:02:35,1,Failed: Timeout 60000ms exceeded.,N/A
-2025-05-15 18:03:50,2,Failed: Timeout 60000ms exceeded.,N/A
-2025-05-15 18:05:05,3,Failed: Timeout 60000ms exceeded.,N/A
-2025-05-15 18:06:22,4,Failed: Timeout 60000ms exceeded.,N/A
-2025-05-15 18:07:36,5,Failed: Timeout 60000ms exceeded.,N/A
+2025-05-20 19:43:14,4,Success,133466
+2025-05-20 19:43:13,2,Success,136382
+2025-05-20 19:43:14,3,Success,139974
+2025-05-20 19:43:14,1,Success,140575
+2025-05-20 19:43:14,5,Success,141285
+
+2025-05-20 19:49:00,19,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…""
+",N/A
+2025-05-20 19:48:58,23,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…""
+",N/A
+2025-05-20 19:49:11,25,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:48:59,14,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:49:03,15,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:48:59,7,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:48:57,20,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:49:07,10,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori10%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori10%40masou…""
+",N/A
+2025-05-20 19:49:25,3,"Failed: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to ""https://app.powerbi.com/singleSignOn?experience=power-bi&ru=https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&clientSideAuth=0&bookmarkGuid=0bd1be94a0d3bb5d4302"", waiting until ""load""
+",N/A
+2025-05-20 19:49:20,18,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:49:26,17,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+",N/A
+2025-05-20 19:49:24,8,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori8%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori8%40masout…""
+",N/A
+2025-05-20 19:49:23,1,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…""
+",N/A
+2025-05-20 19:49:25,11,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…""
+",N/A
+2025-05-20 19:49:23,21,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori21%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori21%40masou…""
+",N/A
+2025-05-20 19:49:23,12,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori12%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori12%40masou…""
+",N/A
+2025-05-20 19:49:23,9,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:49:41,24,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori24%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori24%40masou…""
+",N/A
+2025-05-20 19:49:40,22,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:49:44,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:49:44,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:49:51,4,Success,164103
+2025-05-20 19:49:42,5,Success,178672
+2025-05-20 19:49:44,16,Success,183902
+2025-05-20 19:49:44,2,Success,188995
+2025-05-20 19:56:12,12,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 19:56:12,4,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori4%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori4%40masout…""
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+",N/A
+2025-05-20 19:56:12,18,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,19,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,20,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:11,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:10,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 19:56:12,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-20 19:56:08,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-20 19:56:06,17,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+    - locator resolved to <div tabindex=""0"" role=""button"" focusable=""true"" aria-pressed=""true"" class=""small-multiples-grid-cell-content buttonSlicerVisual"">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+",N/A
+2025-05-20 19:56:10,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+    - locator resolved to <div tabindex=""0"" role=""button"" focusable=""true"" aria-pressed=""false"" class=""small-multiples-grid-cell-content buttonSlicerVisual"">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+",N/A
+2025-05-20 19:56:07,16,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+    - locator resolved to <div tabindex=""0"" role=""button"" focusable=""true"" aria-pressed=""true"" class=""small-multiples-grid-cell-content buttonSlicerVisual"">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+",N/A
+2025-05-20 19:56:12,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:56:07,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:56:07,14,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:56:08,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 19:56:12,1,Success,165936
+2025-05-20 20:01:18,17,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori17%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori17%40masou…""
+",N/A
+2025-05-20 20:01:25,16,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…""
+",N/A
+2025-05-20 20:01:41,19,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 20:01:22,10,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 20:01:40,14,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori14%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori14%40masou…""
+",N/A
+2025-05-20 20:01:42,6,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+",N/A
+2025-05-20 20:01:41,7,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 20:01:42,8,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori8%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori8%40masout…""
+",N/A
+2025-05-20 20:01:15,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 20:01:19,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Yes"")
+    - locator resolved to <input value=""Yes"" type=""submit"" id=""idSIButton9"" data-report-attached=""1"" data-report-value=""Submit"" data-report-trigger=""click"" data-report-event=""Signin_Submit"" aria-describedby=""KmsiDescription"" class=""win-button button_primary high-contrast-overrides button ext-button primary ext-primary"" data-bind=""↵                attr: primaryButtonAttributes,↵                css: { 'high-contrast-overrides': svr.fUseHighContrastDetectionMode },↵                externalCss: {↵                    'button': tru…/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-05-20 20:01:41,13,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori13%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori13%40masou…""
+",N/A
+2025-05-20 20:01:20,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-20 20:01:16,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-20 20:01:19,18,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer""
+",N/A
+2025-05-20 20:01:20,20,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 20:01:20,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 20:01:19,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 20:01:18,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 20:01:20,12,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-20 20:01:22,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+
+
+
+
+2025-05-20 23:14:11,5,Success,71557
+2025-05-20 23:14:12,1,Success,71965
+2025-05-20 23:14:12,2,Success,72608
+2025-05-20 23:14:12,3,Success,73766
+2025-05-20 23:14:12,4,Success,74445
+
+2025-05-20 23:20:36,5,Success,120090
+2025-05-20 23:20:36,2,Success,123298
+2025-05-20 23:20:36,3,Success,125272
+2025-05-20 23:20:35,4,Success,128091
+2025-05-20 23:20:36,1,Success,128384
+
+2025-05-20 23:24:30,4,Success,117368
+2025-05-20 23:24:30,2,Success,123535
+2025-05-20 23:24:30,1,Success,125749
+2025-05-20 23:24:30,3,Success,126426
+2025-05-20 23:24:29,5,Success,126794
+
+2025-05-20 23:35:32,10,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 23:35:44,15,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori15%40masou…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori15%40masou…""
+",N/A
+2025-05-20 23:35:34,12,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 23:35:32,2,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori2%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori2%40masout…""
+",N/A
+2025-05-20 23:35:32,7,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 23:35:45,5,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for navigation to finish...
+",N/A
+2025-05-20 23:35:41,1,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori1%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori1%40masout…""
+",N/A
+2025-05-20 23:35:43,11,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 23:35:36,6,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori6%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori6%40masout…""
+",N/A
+2025-05-20 23:35:46,8,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-20 23:35:31,9,Success,178860
+2025-05-20 23:35:41,13,Success,169396
+2025-05-20 23:35:33,14,Success,183412
+2025-05-20 23:35:34,4,Success,184852
+2025-05-20 23:35:30,3,Success,189697
+2025-05-20 23:41:04,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+    - locator resolved to <div tabindex=""0"" role=""button"" focusable=""true"" aria-pressed=""true"" class=""small-multiples-grid-cell-content buttonSlicerVisual"">…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+",N/A
+2025-05-20 23:41:04,1,Success,314086
+2025-05-20 23:41:04,9,Success,328373
+2025-05-20 23:41:04,4,Success,332167
+2025-05-20 23:41:04,7,Success,335043
+2025-05-20 23:41:04,8,Success,336591
+2025-05-20 23:41:04,2,Success,337660
+2025-05-20 23:41:04,14,Success,338958
+2025-05-20 23:41:04,5,Success,340150
+2025-05-20 23:41:04,6,Success,340271
+2025-05-20 23:41:04,13,Success,340591
+2025-05-20 23:41:04,12,Success,340652
+2025-05-20 23:41:04,15,Success,340870
+2025-05-20 23:41:04,11,Success,341354
+2025-05-20 23:41:04,10,Success,343013
+
+
+
+
+
+2025-05-21 11:36:46,5,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori5%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori5%40masout…""
+    - waiting for"" https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F.default%20openid%20profile%20…"" navigation to finish...
+",N/A
+2025-05-21 11:36:46,6,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-21 11:36:47,9,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-21 11:36:46,1,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori1%40masout…"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&UPN=testsatori1%40masout…""
+",N/A
+2025-05-21 11:36:46,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(5)
+",N/A
+2025-05-21 11:36:46,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(3)
+",N/A
+2025-05-21 11:36:47,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 11:36:46,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(6)
+",N/A
+2025-05-21 11:36:46,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 11:36:46,3,Success,135125
+2025-05-21 12:03:07,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(3)
+",N/A
+2025-05-21 12:03:07,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(3)
+",N/A
+2025-05-21 12:03:07,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(4)
+",N/A
+2025-05-21 12:03:07,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(6)
+",N/A
+2025-05-21 12:03:07,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(5)
+",N/A
+2025-05-21 12:03:07,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(6)
+",N/A
+2025-05-21 12:03:07,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(5)
+",N/A
+2025-05-21 12:03:07,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(3)
+",N/A
+2025-05-21 12:03:07,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(5)
+",N/A
+2025-05-21 12:03:07,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(""path.sub-selectable.selected"").nth(5)
+",N/A
+2025-05-21 12:27:15,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:27:15,9,Success,138115
+2025-05-21 12:27:15,10,Success,138592
+2025-05-21 12:27:15,3,Success,138601
+2025-05-21 12:28:59,14,Success,86048
+2025-05-21 12:28:58,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:29:02,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 12:28:45,12,Success,109263
+2025-05-21 12:29:34,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:16,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:15,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:15,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:14,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:09:14,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:09:14,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:14,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:16,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:14,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:09:13,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:11:02,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:11:20,14,Success,90873
+2025-05-21 13:11:15,12,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:11:23,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:11:32,11,Success,116275
+2025-05-21 13:15:13,7,"Failed: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+",N/A
+2025-05-21 13:15:11,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:15:14,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:15:12,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:15:14,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:15:13,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:15:14,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+    - locator resolved to <i role=""button"" aria-label=""Collapsed"" class=""glyphicon pbi-glyph-explore-content-single""></i>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+",N/A
+2025-05-21 13:15:14,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:15:14,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 13:15:14,8,Success,155374
+2025-05-21 13:18:37,3,Success,145056
+2025-05-21 13:18:37,5,Success,147548
+2025-05-21 13:18:37,2,Success,148516
+2025-05-21 13:18:37,1,Success,148995
+2025-05-21 13:18:37,4,Success,150351
+
+
+
+2025-05-21 13:23:06,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:23:07,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:23:07,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 13:23:05,6,Success,133412
+2025-05-21 13:23:06,7,Success,133614
+2025-05-21 15:11:43,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:11:43,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 15:11:43,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 15:11:43,9,Success,167505
+2025-05-21 15:11:43,10,Success,168118
+2025-05-21 15:17:50,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 15:17:50,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:17:51,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:17:50,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:17:50,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 15:20:33,6,"Failed: Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:22:56,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 15:22:57,9,Success,209508
+2025-05-21 15:22:56,10,Success,212233
+2025-05-21 15:22:55,7,Success,213192
+2025-05-21 15:22:56,6,Success,213449
+2025-05-21 16:48:43,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 16:48:43,14,Success,162508
+2025-05-21 16:48:43,15,Success,203406
+2025-05-21 16:48:43,13,Success,205382
+2025-05-21 16:48:43,12,Success,207762
+2025-05-21 17:26:59,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:26:59,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:26:59,12,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:27:00,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:26:58,14,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
+2025-05-21 17:38:05,12,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:38:05,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:38:05,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:38:05,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Collapsed 101 - ΚΡΥΣΤΑΛΛΗ"").get_by_label(""Collapsed"")
+",N/A
+2025-05-21 17:38:05,14,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Expanded"")
+",N/A
