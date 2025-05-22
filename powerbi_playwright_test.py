@@ -79,6 +79,24 @@ async def test_powerbi_load(user_id):
             except Exception as e:
                 logger.warning(f"[User {user_id}] ⚠️ Failed to check/deselect dimensions: {e}")
 
+            
+            # Reset filters in the upper right corner
+            await page.wait_for_selector("[data-testid='reset-to-default-btn']", timeout=5000)
+            reset_btn = page.get_by_test_id("reset-to-default-btn")
+            if await reset_btn.is_enabled():
+                try:
+                    # click the reset button
+                    await reset_btn.click()
+                    # wait up to 5s for the modal’s OK button to appear
+                    await page.wait_for_selector("[data-testid='dailog-ok-btn']", timeout=5000)
+                    # click the OK button
+                    await page.get_by_test_id("dailog-ok-btn").click()
+                    logger.info(f"[User {user_id}] 🧹 Filters in the upper right corner have been reset successfully.")
+                except Exception as modal_err:
+                    logger.warning(f"[User {user_id}] ⚠️ Modal OK button failed: {modal_err}")
+            else:
+                logger.info(f"[User {user_id}] ℹ️ Reset button is disabled, nothing to do.")
+
             # Interactions
             await page.get_by_role("button", name="Κατάστημα").click()
             await page.wait_for_timeout(10000)
