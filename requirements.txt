@@ -3,5 +3,6 @@ pip install pytest-asyncio
 pip install playwright
 pip install load_dotenv
 pip install asyncio
+pip install pytest-xdist
 playwright install
 

@@ -3,3 +3,43 @@
 2025-05-22 13:41:22,15,Success,197940
 2025-05-22 13:41:32,12,Success,189533
 2025-05-22 13:41:31,11,Success,192527
+2025-05-22 14:08:56,13,"Failed: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(""[data-testid='reset-to-default-btn']"") to be visible
+",N/A
+2025-05-22 14:09:02,16,"Failed: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(""[data-testid='reset-to-default-btn']"") to be visible
+",N/A
+2025-05-22 14:09:02,12,"Failed: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(""[data-testid='reset-to-default-btn']"") to be visible
+",N/A
+2025-05-22 14:09:19,19,"Failed: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(""[data-testid='reset-to-default-btn']"") to be visible
+",N/A
+2025-05-22 14:08:57,17,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A
+2025-05-22 14:08:57,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A
+2025-05-22 14:08:58,14,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A
+2025-05-22 14:09:03,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A
+2025-05-22 14:09:01,20,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A
+2025-05-22 14:10:14,18,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΔΡΕΠΑΣ"").locator(""div span"")
+",N/A

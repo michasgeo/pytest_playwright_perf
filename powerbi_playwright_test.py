@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 results = []
 
 @pytest.mark.asyncio
-@pytest.mark.parametrize("user_id", range(11, 16))  # Simulate 5 users
+@pytest.mark.parametrize("user_id", range(11, 21))  # Simulate 5 users
 async def test_powerbi_load(user_id):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
