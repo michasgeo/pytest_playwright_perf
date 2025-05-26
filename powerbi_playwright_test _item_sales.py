@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 load_dotenv("users.env")
-REPORT_URL = 'https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSection52325b70682a2cae3dad?experience=fabric-developer&clientSideAuth=0&bookmarkGuid=0bd1be94a0d3bb5d4302'
+REPORT_URL = 'https://app.powerbi.com/groups/3081326c-54e1-426e-a4df-bffb371061fa/reports/624c61a6-880f-445a-a9c1-6d08294bace1/ReportSectiona5e1cab1a37500e6ae00?experience=fabric-developer&clientSideAuth=0'
 
 def get_user_credentials(user_id):
     username_key = f"PBI_USERNAME_{user_id}"
@@ -33,8 +33,7 @@ OUTPUT_DIR = THIS_FILE.parent                         \
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Final CSV path
-file_ts  = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
-CSV_PATH = OUTPUT_DIR / f"performance_logs_{file_ts}.csv"
+CSV_PATH = OUTPUT_DIR / "performance_logs.csv"
 
 logging.basicConfig(
     level=logging.INFO,
