@@ -33,7 +33,8 @@ OUTPUT_DIR = THIS_FILE.parent                         \
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Final CSV path
-CSV_PATH = OUTPUT_DIR / "performance_logs.csv"
+file_ts  = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+CSV_PATH = OUTPUT_DIR / f"performance_logs_{file_ts}.csv"
 
 logging.basicConfig(
     level=logging.INFO,
