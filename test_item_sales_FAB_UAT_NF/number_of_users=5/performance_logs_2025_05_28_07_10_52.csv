@@ -1,0 +1,22 @@
+2025-05-28 07:11:03,1,"Failed: Locator.fill: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/me/reports/eb1254ce-39f7-4cf2-ba6b-20ad0cc98c69/ReportSection52325b70682a2cae3dad?ctid=d9f147f4-090d-4444-a562-1cac43890a3d&UPN=testsatori1%40masoutis.gr"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/me/reports/eb1254ce-39f7-4cf2-ba6b-20ad0cc98c69/ReportSection52325b70682a2cae3dad?ctid=d9f147f4-090d-4444-a562-1cac43890a3d&UPN=testsatori1%40masoutis.gr""
+",N/A
+2025-05-28 07:11:03,4,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-28 07:11:03,5,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-28 07:11:03,2,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A
+2025-05-28 07:11:03,3,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Κατάστημα"")
+",N/A

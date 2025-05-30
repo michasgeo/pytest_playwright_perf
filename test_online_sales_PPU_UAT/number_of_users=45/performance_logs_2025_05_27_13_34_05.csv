@@ -1,0 +1,48 @@
+2025-05-27 13:34:16,30,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:12,21,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:14,23,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:13,24,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:13,26,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:15,22,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 13:34:14,28,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 13:34:14,20,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:12,25,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 13:34:14,29,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 13:34:16,19,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 13:34:13,27,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A

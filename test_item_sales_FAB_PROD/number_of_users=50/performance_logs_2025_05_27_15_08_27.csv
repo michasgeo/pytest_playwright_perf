@@ -1,0 +1,52 @@
+2025-05-27 15:08:38,43,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S3 - Πωλήσεις Ειδών από 01/01"").get_by_test_id(""visual-title"").get_by_text(""S3 - Πωλήσεις Ειδών από 01/01"")
+    - locator resolved to <div _ngcontent-ng-c3103266257="""" class=""preTextWithEllipsis ng-star-inserted"">S3 - Πωλήσεις Ειδών από 01/01/2025 - 26/05/2025</div>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <mat-dialog-content _ngcontent-ng-c2143286498="""" class=""mat-mdc-dialog-content mdc-dialog__content"">…</mat-dialog-content> from <div class=""cdk-overlay-container"">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <mat-dialog-content _ngcontent-ng-c2143286498="""" class=""mat-mdc-dialog-content mdc-dialog__content"">…</mat-dialog-content> from <div class=""cdk-overlay-container"">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <li _ngcontent-ng-c44857931="""" class=""ng-tns-c44857931-15 ng-star-inserted"">…</li> from <div class=""cdk-overlay-container"">…</div> subtree intercepts pointer events
+  12 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <li _ngcontent-ng-c44857931="""" class=""ng-tns-c44857931-15 ng-star-inserted"">…</li> from <div class=""cdk-overlay-container"">…</div> subtree intercepts pointer events
+  39 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div focus-nav-mode=""Group"" _ngcontent-ng-c1646653282="""" keyboard-shortcuts=""ctrl-ArrowRight scoped"" class=""errorMessage themableBackgroundColorSolid"">…</div> from <canvas-visual-error-overlay class=""ng-star-inserted"" _nghost-ng-c1646653282="""" _ngcontent-ng-c3103266257="""">…</canvas-visual-error-overlay> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+",N/A
+2025-05-27 15:08:37,38,Success,247265
+2025-05-27 15:08:36,45,Success,248375
+2025-05-27 15:08:36,47,Success,248854
+2025-05-27 15:08:35,41,Success,249781
+2025-05-27 15:08:34,42,Success,251170
+2025-05-27 15:08:34,39,Success,251451
+2025-05-27 15:08:33,44,Success,251939
+2025-05-27 15:08:33,36,Success,251868
+2025-05-27 15:08:36,46,Success,249276
+2025-05-27 15:08:35,40,Success,250297
+2025-05-27 15:08:34,37,Success,251187

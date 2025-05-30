@@ -55,6 +55,8 @@ async def test_powerbi_load(user_id):
         
         
         page = await context.new_page()
+        page.set_default_navigation_timeout(120000)
+        page.set_default_timeout(120000)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         start_time = time.time()
         USERNAME, PASSWORD = get_user_credentials(user_id)
@@ -117,10 +119,10 @@ async def test_powerbi_load(user_id):
 
             # Interactions
             await page.get_by_role("button", name="Κατάστημα").click()
-            await page.wait_for_timeout(10000)
+            await page.wait_for_timeout(20000)
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
             await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").get_by_label("Collapsed").click()
-            await page.wait_for_timeout(10000)
+            await page.wait_for_timeout(20000)
             #await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").wait_for(state="visible", timeout=5000)
             await page.get_by_role("button", name="Expanded").click()
 
@@ -132,6 +134,7 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("button", name="Δομή Ειδών Επ. 4").click()
             await page.get_by_role("button", name="Πόλη").click()
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
             # ==== SCENARIO INTERACTIONS ====
             # Slicer interaction
@@ -139,6 +142,7 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("treeitem", name="- ΦΡΕΣΚΑ ΠΡΟΙΟΝΤΑ").locator("span").first.click()
             await page.get_by_role("group", name="Κατηγορίες Ειδών").locator("i").click()
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
             #await page.get_by_role("button", name="Κατάστημα").click()
             
 
@@ -154,6 +158,7 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("option", name="ΔΡΕΠΑΣ").locator("div span").click()
 
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
 
             # Clear Filters
@@ -198,6 +203,7 @@ async def test_powerbi_load(user_id):
             await page.wait_for_timeout(50000)
             await page.get_by_label("S3 - Πωλήσεις Ειδών από 01/01").get_by_test_id("visual-title").get_by_text("S3 - Πωλήσεις Ειδών από 01/01").click()
             await page.get_by_test_id("drill-up-level-btn").click()
+            await page.wait_for_timeout(60000)
 
             # Clear Filters
             await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()

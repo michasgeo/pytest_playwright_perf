@@ -1,0 +1,28 @@
+2025-05-27 12:05:40,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 12:05:39,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:38,5,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:40,2,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ο χλμ Θεσσαλονίκης – Ωραιοκάστρου"")
+",N/A
+2025-05-27 12:05:41,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:42,6,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,3,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A

@@ -21,7 +21,7 @@ CSV_FILENAME = "performance_log"
 LOG_FILENAME = "performance_debug.log"
 
 # TODO: Here the number of users can be adjusted
-USER_IDS = list(range(1, 6))
+USER_IDS = list(range(41, 71))
 NUM_USERS = len(USER_IDS)
 
 # Discover test-file’s “base name” and build the output path
@@ -55,6 +55,8 @@ async def test_powerbi_load(user_id):
         
         
         page = await context.new_page()
+        page.set_default_navigation_timeout(120000)
+        page.set_default_timeout(120000)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         start_time = time.time()
         USERNAME, PASSWORD = get_user_credentials(user_id)
@@ -103,9 +105,10 @@ async def test_powerbi_load(user_id):
 
             # Interactions
             #select day
-            await page.get_by_role("combobox", name="insert_date").locator("i").click()
+            await page.get_by_role("combobox", name="Date").locator("i").click()
             await page.get_by_role("option", name="26/05/").locator("div span").click()
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
           
             #bar selection
             # await page.get_by_role("option", name="Φυλλάδιο Λιανικής 248455 (38.55%)").click()
@@ -121,20 +124,24 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("option", name="09:30").locator("div span").click()
             await page.get_by_role("option", name="10:00").locator("div span").click()
             await page.get_by_role("group", name="Επιλογή Ώρας").locator("i").click()
-            await page.wait_for_timeout(5000)
+            await page.wait_for_timeout(50000)
 
             #other filters
             await page.get_by_role("group", name="Ομάδα ειδών").locator("i").click()
             await page.get_by_role("option", name="- ΜΗ ΑΛΛΟΙΩΣΙΜΑ").locator("div span").click()
             await page.get_by_role("group", name="Ομάδα ειδών").locator("i").click()
 
-            await page.get_by_role("combobox", name="bulk_id_description").locator("i").click()
+            # await page.get_by_role("combobox", name="bulk_id_description").locator("i").click()
+            # await page.get_by_role("option", name="Λιανική", exact=True).locator("div span").click()
+            # await page.get_by_role("combobox", name="bulk_id_description").locator("i").click()
+
+            await page.get_by_role("combobox", name="BulkIdDescr").locator("i").click()
             await page.get_by_role("option", name="Λιανική", exact=True).locator("div span").click()
-            await page.get_by_role("combobox", name="bulk_id_description").locator("i").click()
+            await page.get_by_role("combobox", name="BulkIdDescr").locator("i").click()
 
             #apply
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
-            await page.wait_for_timeout(5000)
+            await page.wait_for_timeout(60000)
 
 
             # Clear Filters
@@ -151,10 +158,10 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("tab", name="Συγκριτικός Πίνακας").click()
 
             #select day
-            await page.get_by_role("combobox", name="insert_date").locator("i").click()
-            await page.get_by_role("option", name="26/05/").locator("div span").click()
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
-            await page.wait_for_timeout(5000)
+            # await page.get_by_role("combobox", name="Date").locator("i").click()
+            # await page.get_by_role("option", name="26/05/").locator("div span").click()
+            # await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            # await page.wait_for_timeout(5000)
 
             #interact with bars
             await page.get_by_role("button", name="Αγοραστής").click()
@@ -163,13 +170,18 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("button", name="Αγοραστής").click()
             await page.get_by_role("button", name="Family").click()
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(5000)
 
             #await page.locator('div[role="rowheader"]', has_text="11ο χλμ Θεσσαλονίκης – Ωραιοκάστρου")
-            await page.get_by_test_id("visual-container-repeat").get_by_text("ο χλμ Θεσσαλονίκης – Ωραιοκάστρου").click()
+            #await page.get_by_test_id("visual-container-repeat").get_by_text("ο χλμ Θεσσαλονίκης – Ωραιοκάστρου").click()
             #await page.locator('div[role="rowheader"]', has_text="11ο χλμ Θεσσαλονίκης – Ωραιοκάστρου")
+            await page.get_by_test_id("visual-container-repeat").get_by_text("Ν.ΜΟΥΔΑΝΙΑ (ΝΈΟ)").click()
 
-            await page.get_by_role("rowheader", name="Γ - ΑΓΟΡΑΣΤΗΣ MrGRAND").click()
-            await page.get_by_role("rowheader", name="Γ - ΑΓΟΡΑΣΤΗΣ MrGRAND Selected").click()
+            # await page.get_by_role("rowheader", name="Γ - ΑΓΟΡΑΣΤΗΣ MrGRAND").click()
+            # await page.get_by_role("rowheader", name="Γ - ΑΓΟΡΑΣΤΗΣ MrGRAND Selected").click()
+
+            await page.get_by_role("rowheader", name="ΑΓΟΡΑΣΤΗΣ MrGRAND").click()
+            await page.get_by_role("rowheader", name="ΑΓΟΡΑΣΤΗΣ MrGRAND Selected").click()
 
             #filters
             await page.get_by_role("group", name="Επιλογή Ώρας").locator("i").click()
@@ -187,15 +199,21 @@ async def test_powerbi_load(user_id):
 
             await page.get_by_role("group", name="Αγοραστής").locator("i").click()
             await page.get_by_role("option", name="- ΑΓΟΡΑΣΤΗΣ ΜΑΝΑΒΙΚΩΝ").locator("div span").click()
+            #await page.get_by_role("option", name="ΑΓΟΡΑΣΤΗΣ COSMETICS").locator("div span").click()
             await page.get_by_role("group", name="Αγοραστής").locator("i").click()
 
 
+            
+
+
             await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
 
 
             # Clear Filters
             await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
 
             load_time_ms = round((time.time() - start_time) * 1000)

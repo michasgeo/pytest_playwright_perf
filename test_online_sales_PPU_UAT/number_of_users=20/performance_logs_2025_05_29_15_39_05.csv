@@ -1,0 +1,48 @@
+2025-05-29 15:39:14,59,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:15,69,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:15,62,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:13,61,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:17,58,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:17,66,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:17,64,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:21,67,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:17,63,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:18,68,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:21,65,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A
+2025-05-29 15:39:21,60,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""insert_date"").locator(""i"")
+",N/A

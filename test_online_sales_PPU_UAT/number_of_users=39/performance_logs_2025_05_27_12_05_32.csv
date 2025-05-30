@@ -1,0 +1,52 @@
+2025-05-27 12:05:40,14,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 12:05:39,16,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,18,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:40,8,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,12,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:40,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,9,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""rowheader"", name=""Γ - ΑΓΟΡΑΣΤΗΣ MrGRAND"")
+",N/A
+2025-05-27 12:05:42,15,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,20,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:39,19,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:41,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 12:05:40,17,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A

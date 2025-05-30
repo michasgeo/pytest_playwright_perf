@@ -1,0 +1,21 @@
+2025-05-27 14:57:18,13,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 14:57:19,11,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ο χλμ Θεσσαλονίκης – Ωραιοκάστρου"")
+",N/A
+2025-05-27 14:57:20,10,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 14:57:17,5,Success,127125
+2025-05-27 14:57:19,12,Success,125708
+2025-05-27 14:57:18,9,Success,127236
+2025-05-27 14:57:18,14,Success,126999
+2025-05-27 14:57:19,4,Success,126255
+2025-05-27 14:57:18,8,Success,127167
+2025-05-27 14:57:18,3,Success,127102
+2025-05-27 14:57:19,6,Success,126549
+2025-05-27 14:57:18,7,Success,127655

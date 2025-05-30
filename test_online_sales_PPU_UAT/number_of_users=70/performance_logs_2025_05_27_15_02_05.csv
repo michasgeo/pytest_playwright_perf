@@ -1,0 +1,52 @@
+2025-05-27 15:02:16,53,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:29,55,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""Λιανική"", exact=True).locator(""div span"")
+",N/A
+2025-05-27 15:02:22,57,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:13,52,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:20,45,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:29,49,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:30,47,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:31,48,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""Λιανική"", exact=True).locator(""div span"")
+",N/A
+2025-05-27 15:02:19,51,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:14,54,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 15:02:16,46,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 15:02:20,56,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 15:02:29,50,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A

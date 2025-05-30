@@ -1,0 +1,4 @@
+2025-05-30 10:36:26,5,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΣΚΙΑΔΟΠΟΥΛΟΣ"").locator(""div span"")
+",N/A

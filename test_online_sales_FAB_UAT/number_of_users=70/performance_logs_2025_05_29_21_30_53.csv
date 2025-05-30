@@ -1,0 +1,52 @@
+2025-05-29 21:31:16,25,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:15,29,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:17,34,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:16,23,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:16,33,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:14,31,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:18,32,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:16,26,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:16,22,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:13,24,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:16,28,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:18,27,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A
+2025-05-29 21:31:20,30,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""combobox"", name=""bulk_id_description"").locator(""i"")
+",N/A

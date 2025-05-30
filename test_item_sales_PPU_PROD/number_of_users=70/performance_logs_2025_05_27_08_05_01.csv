@@ -1,0 +1,40 @@
+2025-05-27 08:05:11,48,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+",N/A
+2025-05-27 08:05:14,43,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+",N/A
+2025-05-27 08:05:11,40,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+",N/A
+2025-05-27 08:05:10,41,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+    - locator resolved to <div _ngcontent-ng-c3103266257="""" class=""preTextWithEllipsis ng-star-inserted"">S4 - Σύγκριση Πωλήσεις Ειδών 01/01/2025 - 25/05/2…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+",N/A
+2025-05-27 08:05:10,39,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+    - locator resolved to <div _ngcontent-ng-c3103266257="""" class=""preTextWithEllipsis ng-star-inserted"">S4 - Σύγκριση Πωλήσεις Ειδών 01/01/2025 - 25/05/2…</div>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+",N/A
+2025-05-27 08:05:14,42,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+",N/A
+2025-05-27 08:05:10,49,Success,264652
+2025-05-27 08:05:17,44,Success,258521
+2025-05-27 08:05:12,45,Success,264375
+2025-05-27 08:05:15,38,Success,261154
+2025-05-27 08:05:20,46,Success,256527
+2025-05-27 08:05:17,47,Success,258850

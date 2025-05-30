@@ -1,0 +1,172 @@
+27/5/26
+--------
+
+9:00
+1) pytest -n 5 test_item_sales_FAB_PROD.py
+2) pytest -n 5 test_item_sales_PPU_PROD.py
+
+09:30
+3) pytest -n 25 test_item_sales_FAB_PROD.py (done)
+4) pytest -n 25 test_item_sales_PPU_PROD.py (done)
+
+10:00
+5) a) vscode -> pytest -n 5 test_item_sales_FAB_PROD.py  b) vscode -> pytest -n 5 test_online_sales_FAB_UAT.py (done)
+6) pytest -n 50 test_item_sales_PPU_PROD.py
+
+10:45
+7) a) vscode -> pytest -n 20 test_item_sales_FAB_PROD.py  b) vscode -> pytest -n 5 test_online_sales_FAB_UAT.py (done)
+8) pytest -n 70 test_item_sales_PPU_PROD.py
+
+
+15:00 - 
+9) a) pytest -n 2 test_online_sales_PPU_UAT.py b) pytest -n 3 test_item_sales_PPU_PROD.py (done)
+
+15:30
+10) a) pytest -n 5 test_online_sales_PPU_UAT.py b) pytest -n 20 test_item_sales_PPU_PROD.py (done)
+
+16:00
+11) a) pytest -n 40 test_online_sales_PPU_UAT.py b) pytest -n 10 test_item_sales_PPU_PROD.py (done)
+
+17:00
+12) a) pytest -n 35 test_online_sales_PPU_UAT.py b) pytest -n 35 test_item_sales_PPU_PROD.py (done)
+
+
+
+18:00
+13) pytest -n 50 test_item_sales_FAB_PROD.py    |or|    pytest -n 50 test_online_sales_FAB_UAT.py (done)
+
+18:45
+14) pytest -n 70 test_item_sales_FAB_PROD.py    |or|   pytest -n 70 test_online_sales_FAB_UAT.py (done)
+
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
+28/5/26
+----------
+
+10:10 - 10:18
+1) pytest -n 5 test_item_sales_FAB_UAT_NF.py (done) users 1-5
+2) pytest -n 25 test_item_sales_PPU_PROD.py (done) duration: 10:40  success time: 18:28
+
+10:40
+3) pytest -n 5 test_item_sales_2y_FAB_PROD.py (done) users: 11-15
+
+11:10
+4) pytest -n 25 test_item_sales_2y_FAB_PROD.py users 25 -50 (done)
+
+rerun
+
+11:51 - 11:59
+pytest -n 5 test_item_sales_FAB_UAT_NF.py (done) users 50-55
+all 5 users run successfully
+
+12:29 - 12:41
+pytest -n 50 test_item_sales_PPU_PROD.py
+2 users timed out in the Login-password interaction
+
+12:45 - 12:58
+pytest -n 70 test_item_sales_PPU_PROD.py
+5 users timed out in the second page (συγκριση πωλήσεων), matrix is not displayed
+
+13:04 - 13:18
+pytest -n 70 test_item_sales_PPU_PROD.py
+6 users timed out in the second page (συγκριση πωλήσεων), matrix is not displayed
+
+
+13:25 - 13:40
+pytest -n 70 test_online_sales_PPU_UAT.py
+13 users timed out in the time selection filter
+
+
+13:45 - 13:57
+pytest -n 70 test_online_sales_PPU_UAT.py
+all 70 users run successfully
+
+14:07 - 14:20
+pytest -n 70 test_online_sales_PPU_UAT.py
+2 users timed out in the Login-password interaction
+
+
+
+
+17:02 - 17:14
+5) pytest -n 50 test_item_sales_2y_FAB_PROD.py
+all 50 users run successfully
+
+17:27 - 17: 38
+6) pytest -n 70 test_item_sales_2y_FAB_PROD.py
+1 user failed in login-password 
+
+17:54 - 18:03   |  17:54 - 17:59
+7) a) vscode -> pytest -n 10 test_item_sales_FAB_PROD.py  b) vscode -> pytest -n 40 test_online_sales_FAB_UAT.py
+
+a) all 10 users run successfully b) all 40 users failed
+
+18:45 - 18:55
+8) a) vscode -> pytest -n 35 test_item_sales_FAB_PROD.py  b) vscode -> pytest -n 35 test_online_sales_FAB_UAT.py
+
+a) all 35 users run successfully in item_sales_FAB_PROD b) all users failed in test_online_sales_FAB_UAT
+
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+
+29/5/26
+
+12:19 - 12:28
+1) pytest -n 5 test_item_sales_Aggregate.py
+all 5 users run successfully
+
+12:38 - 12:47
+2)pytest -n 25 test_item_sales_Aggregate.py
+all 25 users run successfully
+
+12:54 - 13:05
+3) pytest -n 50 test_item_sales_Aggregate.py
+all 50 users run successfully
+
+11:54 - 12:04
+4) pytest -n 70 test_item_sales_Aggregate.py
+all 70 users run successfully
+
+
+F128
+14:29 - 14:38
+5) pytest -n 5 test_item_sales_FAB_PROD.py
+all 5 users run successfully
+
+14:55 - 15:03
+6) pytest -n 25 test_item_sales_FAB_PROD.py
+all 25 users run successfully
+
+15:33 - 15:42
+7) pytest -n 50 test_item_sales_FAB_PROD.py
+all 50 users run successfully
+
+16:00 - 16:09
+8) pytest -n 70 test_item_sales_FAB_PROD.py
+69 users run successfully, only one user failed
+
+reruns
+
+19:36 - 19:53
+a) pytest -n 20 test_online_sales_PPU_UAT.py b) pytest -n 50 test_item_sales_PPU_PROD.py -> check user 24
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+30/5/25
+
+15:10 - 15:21 -> 50 users
+1) pytest -n 5 test_item_sales_FAB_PROD.py test_item_sales_FAB_PROD_2.py test_item_sales_FAB_PROD_3.py test_item_sales_FAB_PROD_4.py test_item_sales_FAB_PROD_5.py
+5 different users interact with item sales prod reports doing different interaction in each one
+all 5 users run successfully 
+
+16:50 - 17:01
+2)  pytest -n 50 test_item_sales_FAB_PROD.py test_item_sales_FAB_PROD_2.py test_item_sales_FAB_PROD_3.py test_item_sales_FAB_PROD_4.py test_item_sales_FAB_PROD_5.py test_online_sales_FAB_UAT.py
+(15 users online_sales_FAB_UAT + 7 users x5 item_sales_FAB_PROD different versions)
+All users run successfully, test_item_sales_FAB_PROD_5 reach 684 sec
+
+17:10 - 17:22  70 users
+3)  pytest -n 70 test_item_sales_FAB_PROD.py test_item_sales_FAB_PROD_2.py test_item_sales_FAB_PROD_3.py test_item_sales_FAB_PROD_4.py test_item_sales_FAB_PROD_5.py test_online_sales_FAB_UAT.py
+(30 users online_sales_FAB_UAT + 8 users x5 item_sales_FAB_PROD different versions)
+All users run successfully, test_item_sales_FAB_PROD_5 reach 709 sec

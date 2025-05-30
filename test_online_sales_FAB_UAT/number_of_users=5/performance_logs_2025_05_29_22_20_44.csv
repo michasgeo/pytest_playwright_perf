@@ -1,0 +1,20 @@
+2025-05-29 22:20:45,1,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ΚΑΤΕΡΙΝΗ-19"")
+",N/A
+2025-05-29 22:20:45,4,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ΚΑΤΕΡΙΝΗ-19"")
+",N/A
+2025-05-29 22:20:45,5,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ΚΑΤΕΡΙΝΗ-19"")
+",N/A
+2025-05-29 22:20:45,3,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ΚΑΤΕΡΙΝΗ-19"")
+",N/A
+2025-05-29 22:20:45,2,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ΚΑΤΕΡΙΝΗ-19"")
+",N/A

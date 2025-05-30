@@ -1,0 +1,11 @@
+2025-05-27 08:05:15,66,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_label(""S4 - Σύγκριση Πωλήσεις Ειδών"").get_by_test_id(""visual-title"").get_by_text(""S4 - Σύγκριση Πωλήσεις Ειδών"")
+",N/A
+2025-05-27 08:05:18,65,Success,257560
+2025-05-27 08:05:17,68,Success,258102
+2025-05-27 08:05:20,67,Success,255221
+2025-05-27 08:05:17,69,Success,258723
+2025-05-27 08:05:18,64,Success,257302
+2025-05-27 08:05:17,63,Success,259437
+2025-05-27 08:05:17,70,Success,259044

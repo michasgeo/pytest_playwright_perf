@@ -1,0 +1,20 @@
+2025-05-27 10:03:01,2,"Failed: Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(""[data-testid='reset-to-default-btn']"") to be visible
+    - locator resolved to visible <button _ngcontent-ng-c585609052="""" data-testid=""reset-to-default-btn"" class=""resetBtn rightActionBarBtn ng-star-inserted"" aria-label=""The author has disabled saving filters for this report."">…</button>
+",N/A
+2025-05-27 10:03:02,1,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:03,7,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:13,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:02,3,Success,176086
+2025-05-27 10:03:02,5,Success,176645
+2025-05-27 10:03:16,6,Success,164722

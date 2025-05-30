@@ -1,0 +1,9 @@
+2025-05-27 09:38:05,4,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""button"", name=""Αγοραστής"")
+",N/A
+2025-05-27 09:38:02,3,Success,131876
+2025-05-27 09:38:00,5,Success,136533
+2025-05-27 09:38:06,6,Success,136312
+2025-05-27 09:38:05,2,Success,137048
+2025-05-27 09:38:05,1,Success,142061

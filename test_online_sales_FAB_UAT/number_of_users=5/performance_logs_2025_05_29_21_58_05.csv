@@ -1,0 +1,12 @@
+2025-05-29 21:58:06,4,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ο χλμ Θεσσαλονίκης – Ωραιοκάστρου"")
+",N/A
+2025-05-29 21:58:06,5,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ο χλμ Θεσσαλονίκης – Ωραιοκάστρου"")
+",N/A
+2025-05-29 21:58:06,3,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_test_id(""visual-container-repeat"").get_by_text(""ο χλμ Θεσσαλονίκης – Ωραιοκάστρου"")
+",N/A

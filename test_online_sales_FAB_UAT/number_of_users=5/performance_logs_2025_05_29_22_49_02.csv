@@ -1,0 +1,24 @@
+2025-05-29 22:49:03,5,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΓΟΡΑΣΤΗΣ COSMETICS"").locator(""div span"")
+",N/A
+2025-05-29 22:49:03,2,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΓΟΡΑΣΤΗΣ COSMETICS"").locator(""div span"")
+    - locator resolved to <span class=""glyphicon checkbox checkboxOutlineContrast""></span>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+  - element was detached from the DOM, retrying
+",N/A
+2025-05-29 22:49:03,4,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΓΟΡΑΣΤΗΣ COSMETICS"").locator(""div span"")
+",N/A
+2025-05-29 22:49:03,3,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΓΟΡΑΣΤΗΣ COSMETICS"").locator(""div span"")
+",N/A
+2025-05-29 22:49:03,1,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΓΟΡΑΣΤΗΣ COSMETICS"").locator(""div span"")
+",N/A

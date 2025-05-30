@@ -1,0 +1,20 @@
+2025-05-29 13:00:25,36,"Failed: Locator.fill: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""textbox"", name=""Enter the password for"")
+    - waiting for"" https://app.powerbi.com/groups/me/reports/bd14751e-20b5-4c00-bb56-a171d311e151/ReportSection52325b70682a2cae3dad?ctid=d9f147f4-090d-4444-a562-1cac43890a3d&UPN=testsatori36%40masoutis.gr"" navigation to finish...
+    - navigated to ""https://app.powerbi.com/groups/me/reports/bd14751e-20b5-4c00-bb56-a171d311e151/ReportSection52325b70682a2cae3dad?ctid=d9f147f4-090d-4444-a562-1cac43890a3d&UPN=testsatori36%40masoutis.gr""
+    - waiting for"" https://login.microsoftonline.com/d9f147f4-090d-4444-a562-1cac43890a3d/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F…"" navigation to finish...
+    - navigated to ""https://login.microsoftonline.com/d9f147f4-090d-4444-a562-1cac43890a3d/oauth2/v2.0/authorize?client_id=871c010f-5e61-4fb1-83ac-98610a7e9110&scope=https%3A%2F%2Fanalysis.windows.net%2Fpowerbi%2Fapi%2F…""
+",N/A
+2025-05-29 13:00:21,39,Success,545161
+2025-05-29 13:00:20,28,Success,546984
+2025-05-29 13:00:24,30,Success,542773
+2025-05-29 13:00:26,32,Success,542838
+2025-05-29 13:00:26,31,Success,544431
+2025-05-29 13:00:23,29,Success,546963
+2025-05-29 13:00:25,35,Success,545976
+2025-05-29 13:00:22,38,Success,548972
+2025-05-29 13:00:24,37,Success,560994
+2025-05-29 13:00:21,27,Success,564470
+2025-05-29 13:00:23,33,Success,563493
+2025-05-29 13:00:26,34,Success,560692

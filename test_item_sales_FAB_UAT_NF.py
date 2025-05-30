@@ -21,7 +21,7 @@ CSV_FILENAME = "performance_log"
 LOG_FILENAME = "performance_debug.log"
 
 # TODO: Here the number of users can be adjusted
-USER_IDS = list(range(11, 21))
+USER_IDS = list(range(1, 26)) #define user range
 NUM_USERS = len(USER_IDS)
 
 # Discover test-file’s “base name” and build the output path
@@ -55,6 +55,8 @@ async def test_powerbi_load(user_id):
         
         
         page = await context.new_page()
+        page.set_default_navigation_timeout(120000)
+        page.set_default_timeout(120000)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         start_time = time.time()
         USERNAME, PASSWORD = get_user_credentials(user_id)
@@ -116,9 +118,10 @@ async def test_powerbi_load(user_id):
                 logger.info(f"[User {user_id}] ℹ️ Reset button is disabled, nothing to do.")
 
             # Interactions
+            await page.wait_for_timeout(60000)
             await page.get_by_role("button", name="Κατάστημα").click()
             await page.wait_for_timeout(10000)
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            #await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
             await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").get_by_label("Collapsed").click()
             await page.wait_for_timeout(10000)
             #await page.get_by_role("rowheader", name="Collapsed 101 - ΚΡΥΣΤΑΛΛΗ").wait_for(state="visible", timeout=5000)
@@ -131,14 +134,17 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("button", name="Δομή Ειδών Επ. 3").click()
             await page.get_by_role("button", name="Δομή Ειδών Επ. 4").click()
             await page.get_by_role("button", name="Πόλη").click()
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
+
+            #await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
 
             # ==== SCENARIO INTERACTIONS ====
             # Slicer interaction
             await page.get_by_role("group", name="Κατηγορίες Ειδών").locator("i").click()
             await page.get_by_role("treeitem", name="- ΦΡΕΣΚΑ ΠΡΟΙΟΝΤΑ").locator("span").first.click()
             await page.get_by_role("group", name="Κατηγορίες Ειδών").locator("i").click()
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            await page.wait_for_timeout(60000)
+            #await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
             #await page.get_by_role("button", name="Κατάστημα").click()
             
 
@@ -151,60 +157,85 @@ async def test_powerbi_load(user_id):
             await page.get_by_role("combobox", name="Sector").locator("i").click()
             await page.get_by_role("option", name="ΔΙΑΜΑΝΤΟΠΟΥΛΟΣ").locator("div span").click()
             await page.get_by_role("combobox", name="Manager3").locator("i").click()
-            await page.get_by_role("option", name="ΔΡΕΠΑΣ").locator("div span").click()
+            await page.get_by_role("option", name="ΡΕΠΠΑΣ").locator("div span").click()
+            page.get_by_role("combobox", name="Manager3").locator("i").click()
+            await page.wait_for_timeout(10000)
 
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            #await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
 
 
             # Clear Filters
             await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
             # Date filter range
             # Match the correct format (after printing actual value)
-            target_start_date = "18/08/2024"
-            slider = page.locator('div[role="slider"][aria-label="Date"]').first
+            # target_start_date = "18/08/2024"
+            # slider = page.locator('div[role="slider"][aria-label="Date"]').first
 
-            await slider.focus()
+            # await slider.focus()
 
-            # Safety counter to prevent infinite loop
-            max_attempts = 200
-            attempts = 0
+            # # Safety counter to prevent infinite loop
+            # max_attempts = 200
+            # attempts = 0
 
-            while attempts < max_attempts:
-                value = await slider.get_attribute("aria-valuetext")
-                print(f"[Slider] Current: {value} | Target: {target_start_date}")
+            # while attempts < max_attempts:
+            #     value = await slider.get_attribute("aria-valuetext")
+            #     print(f"[Slider] Current: {value} | Target: {target_start_date}")
                 
-                if value == target_start_date:
-                    break
+            #     if value == target_start_date:
+            #         break
                 
-                await slider.press("ArrowLeft")
-                await page.wait_for_timeout(100)
-                attempts += 1
+            #     await slider.press("ArrowLeft")
+            #     await page.wait_for_timeout(100)
+            #     attempts += 1
 
-            if attempts == max_attempts:
-                print("⚠️ Reached maximum slider attempts. Target date not found.")
+            # if attempts == max_attempts:
+            #     print("⚠️ Reached maximum slider attempts. Target date not found.")
 
-            await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
+            #await page.get_by_role("group", name="Apply all slicers").locator("path").first.click()
 
 
 
             # Clear Filters
-            await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
+            #await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
 
 
             # Drill actions
             await page.get_by_label("S3 - Πωλήσεις Ειδών από 01/01").get_by_test_id("visual-title").get_by_text("S3 - Πωλήσεις Ειδών από 01/01").click()
             await page.get_by_test_id("drill-down-level-grouped-btn").click()
-            await page.wait_for_timeout(50000)
+            await page.wait_for_timeout(60000)
             await page.get_by_label("S3 - Πωλήσεις Ειδών από 01/01").get_by_test_id("visual-title").get_by_text("S3 - Πωλήσεις Ειδών από 01/01").click()
             await page.get_by_test_id("drill-up-level-btn").click()
 
             # Clear Filters
             await page.locator("visual-modern").filter(has_text="Clear Filters").locator("path").first.click()
+            await page.wait_for_timeout(60000)
 
 
             # Tab/Page switching
             await page.get_by_role("button", name="Σύγκριση Πωλήσεων").click()
+            await page.wait_for_timeout(30000)
+
+            # Reset filters in the upper right corner
+            await page.wait_for_selector("[data-testid='reset-to-default-btn']", timeout=5000)
+            reset_btn = page.get_by_test_id("reset-to-default-btn")
+            if await reset_btn.is_enabled():
+                try:
+                    # click the reset button
+                    await reset_btn.click()
+                    # wait up to 5s for the modal’s OK button to appear
+                    await page.wait_for_selector("[data-testid='dailog-ok-btn']", timeout=5000)
+                    # click the OK button
+                    await page.get_by_test_id("dailog-ok-btn").click()
+                    logger.info(f"[User {user_id}] 🧹 Filters in the upper right corner have been reset successfully.")
+                except Exception as modal_err:
+                    logger.warning(f"[User {user_id}] ⚠️ Modal OK button failed: {modal_err}")
+            else:
+                logger.info(f"[User {user_id}] ℹ️ Reset button is disabled, nothing to do.")
+            await page.get_by_role("button", name="Κατάστημα").click()
+            await page.wait_for_timeout(10000)
+
              # Drill actions
             await page.get_by_label("S4 - Σύγκριση Πωλήσεις Ειδών").get_by_test_id("visual-title").get_by_text("S4 - Σύγκριση Πωλήσεις Ειδών").click()
             await page.get_by_test_id("drill-down-level-grouped-btn").click()

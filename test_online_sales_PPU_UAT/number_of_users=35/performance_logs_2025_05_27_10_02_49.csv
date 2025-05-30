@@ -1,0 +1,34 @@
+2025-05-27 10:03:08,26,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:06,23,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""ΑΤΤΙΚΗ"").locator(""div span"")
+    - locator resolved to <span class=""glyphicon checkbox checkboxOutlineContrast""></span>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+",N/A
+2025-05-27 10:03:17,22,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:00,19,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""- ΑΓΟΡΑΣΤΗΣ ΜΑΝΑΒΙΚΩΝ"").locator(""div span"")
+",N/A
+2025-05-27 10:03:16,21,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:18,24,"Failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role(""option"", name=""08:00"").locator(""div span"")
+",N/A
+2025-05-27 10:03:02,28,Success,177299
+2025-05-27 10:03:16,20,Success,163754
+2025-05-27 10:03:17,25,Success,163375
+2025-05-27 10:03:01,27,Success,182582
+2025-05-27 10:03:16,18,Success,168371
