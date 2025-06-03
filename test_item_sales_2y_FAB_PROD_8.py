@@ -24,7 +24,7 @@ CSV_FILENAME = "performance_log"
 LOG_FILENAME = "performance_debug.log"
 
 # TODO: Here the number of users can be adjusted
-USER_IDS = list(range(1, 3))
+USER_IDS = list(range(1, 6))
 NUM_USERS = len(USER_IDS)
 
 # Discover test-file’s “base name” and build the output path
