@@ -1,0 +1,42 @@
+2025-06-01 20:04:49,8,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""698"" pbi-focus-tracker-idx=""21"" aria-valuetext=""11/29/2024"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+  - elementHandle.press(""ArrowLeft"")
+",N/A
+2025-06-01 20:04:50,7,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""702"" aria-valuetext=""12/3/2024"" pbi-focus-tracker-idx=""21"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+  - elementHandle.press(""ArrowLeft"")
+",N/A
+2025-06-01 20:04:50,1,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""704"" aria-valuetext=""12/5/2024"" pbi-focus-tracker-idx=""21"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+  - elementHandle.press(""ArrowLeft"")
+",N/A
+2025-06-01 20:04:48,6,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""704"" aria-valuetext=""12/5/2024"" pbi-focus-tracker-idx=""21"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+  - elementHandle.press(""ArrowLeft"")
+",N/A
+2025-06-01 20:04:51,4,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""701"" aria-valuetext=""12/2/2024"" pbi-focus-tracker-idx=""21"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+  - elementHandle.press(""ArrowLeft"")
+",N/A
+2025-06-01 20:04:50,3,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A
+2025-06-01 20:04:50,2,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A
+2025-06-01 20:04:49,5,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A

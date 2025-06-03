@@ -1,0 +1,4 @@
+2025-06-03 08:44:57,1,"Failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(""iframe[name=\""visual-sandbox\""]"") to be visible
+",N/A

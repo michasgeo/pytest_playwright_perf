@@ -1,0 +1,27 @@
+2025-06-01 20:04:49,24,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""691"" pbi-focus-tracker-idx=""20"" aria-valuetext=""11/22/2024"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+",N/A
+2025-06-01 20:04:49,21,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""691"" pbi-focus-tracker-idx=""20"" aria-valuetext=""11/22/2024"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+",N/A
+2025-06-01 20:04:49,22,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+    - locator resolved to <div tabindex=""0"" role=""slider"" data-handle=""0"" aria-valuemin=""0"" aria-label=""Date"" aria-valuemax=""879"" aria-valuenow=""690"" pbi-focus-tracker-idx=""20"" aria-valuetext=""11/21/2024"" aria-orientation=""horizontal"" aria-description=""Start date Range 1/1/2023 to 5/29/2025"" class=""noUi-handle noUi-handle-lower backgroundToSolidBackgroundColor highContrastSelectedBorderColor"">…</div>
+",N/A
+2025-06-01 20:04:50,20,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A
+2025-06-01 20:04:49,19,"Failed: Locator.press: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A
+2025-06-01 20:04:51,23,"Failed: Locator.get_attribute: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator(""div[role=\""slider\""][aria-label=\""Date\""]"").first
+",N/A

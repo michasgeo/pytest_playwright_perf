@@ -1,0 +1,4 @@
+2025-06-03 08:47:47,1,"Failed: Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator(""role=textbox[name=\""Enter Item Codes\""]"") to be visible
+",N/A

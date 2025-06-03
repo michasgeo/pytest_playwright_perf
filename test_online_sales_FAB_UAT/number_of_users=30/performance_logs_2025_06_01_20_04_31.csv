@@ -1,0 +1,24 @@
+2025-06-01 20:04:53,56,"Failed: Locator.click: Timeout 120000ms exceeded.
+Call log:
+  - waiting for get_by_role(""tab"", name=""Συγκριτικός Πίνακας"")
+    - locator resolved to <button role=""tab"" type=""button"" mat-list-item="""" aria-selected=""false"" aria-disabled=""false"" pbitooltipalwaysshow=""true"" _ngcontent-ng-c3561657973="""" aria-label=""Συγκριτικός Πίνακας"" data-testid=""pages-navigation-list-items"" class=""mat-mdc-list-item mdc-list-item exploration-fluent-li item trimmedTextWithEllipsis fluentTheme-sm-reg mat-mdc-list-item-interactive mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted"">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+",N/A
+2025-06-01 20:04:51,58,Success,998258
+2025-06-01 20:04:50,59,Success,999455
+2025-06-01 20:04:49,60,Success,1003292
+2025-06-01 20:04:50,62,Success,1003081
+2025-06-01 20:04:50,61,Success,1003691
+2025-06-01 20:04:50,57,Success,1007363
+2025-06-01 20:04:51,63,Success,1006956
+2025-06-01 20:04:52,64,Success,1006898
+2025-06-01 20:04:50,65,Success,1011440
+2025-06-01 20:04:49,67,Success,1012656
+2025-06-01 20:04:50,66,Success,1012158

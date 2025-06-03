@@ -3,11 +3,16 @@ import pytest_asyncio
 import asyncio
 import os
 from datetime import datetime
+import csv
+import random
 from dotenv import load_dotenv
 from playwright.async_api import async_playwright
 
 # Load environment variables from .env
 load_dotenv("users.env")
+
+CSV_PATH_2    = os.getenv("ITEM_CODES_FILE", "item_codes.csv")
+SAMPLE_SIZE = int(os.getenv("SAMPLE_SIZE", "20"))
 
 @pytest_asyncio.fixture(scope="session")
 async def browser_context():
@@ -35,3 +40,13 @@ def credentials(request):
 @pytest_asyncio.fixture(scope="function")
 def timestamp():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+
+@pytest_asyncio.fixture(scope="function")
+def random_codes_text():
+    with open(CSV_PATH_2, newline="") as f:
+        reader = csv.reader(f)
+        all_codes = [row[0].strip() for row in reader if row]
+    selected = random.sample(all_codes, SAMPLE_SIZE)
+    return "\n".join(selected)

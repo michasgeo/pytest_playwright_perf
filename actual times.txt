@@ -170,3 +170,65 @@ All users run successfully, test_item_sales_FAB_PROD_5 reach 684 sec
 3)  pytest -n 70 test_item_sales_FAB_PROD.py test_item_sales_FAB_PROD_2.py test_item_sales_FAB_PROD_3.py test_item_sales_FAB_PROD_4.py test_item_sales_FAB_PROD_5.py test_online_sales_FAB_UAT.py
 (30 users online_sales_FAB_UAT + 8 users x5 item_sales_FAB_PROD different versions)
 All users run successfully, test_item_sales_FAB_PROD_5 reach 709 sec
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+01/06/2025
+
+F256
+23:04 - 23:15 ~  
+3)  pytest -n 70 test_item_sales_FAB_PROD.py test_item_sales_FAB_PROD_2.py test_item_sales_FAB_PROD_3.py test_item_sales_FAB_PROD_4.py test_item_sales_FAB_PROD_5.py test_online_sales_FAB_UAT.py
+Test didn't finish properly since the VM went unresponsive and had to restart after 30 minutes.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3/6
+
+14:52 - 15:00 -> 25 users F64
+1) pytest -n 25 test_item_sales_FAB_PROD_7.py
+
+15:24: - 15:  -> 25 users PPU
+2) pytest -n 25 test_item_sales_PPU_PROD_7.py
+
+15:39:50 - 15:55  -> 50 users F64
+3) pytest -n 25 test_item_sales_FAB_PROD_7.py
+34 users failed in 2nd tab fork, 16 passed
+
+16:00 - 16:14  -> 50 users PPU
+4) pytest -n 50 test_item_sales_PPU_PROD_7.py
+all 50 users run successfully
+
+
+16:30 - 16:46  -> 70 users F64
+5) pytest -n 25 test_item_sales_PPU_PROD_7.py
+40 users failed in 2nd tab fork, 30 passed
+
+
+16:48 - 17:02  -> 70 users PPU
+6) pytest -n 70 test_item_sales_PPU_PROD_7.py
+all 70 users run successfully
+
+reruns
+
+17:14 - 17:29 -> 50 users F64
+3) pytest -n 50 test_item_sales_FAB_PROD_7.py
+
+
+17:34 - 17:47  -> 10 users (5 capacity + 5 PPU)
+
+7) pytest -n 10 test_item_sales_FAB_PROD_7.py + test_item_sales_PPU_PROD_7.py
+
+
+18:00 - 18:10 -> 25 users
+8) pytest -n 25 test_item_sales_2y_FAB_PROD_8.py
+25 users run successfully
+
+18:20 - 18:30 -> 50 users
+9) pytest -n 50 test_item_sales_2y_FAB_PROD_8.py
+all 50 users failed
+
+18:40 - 18:52 -> 70 users
+10) pytest -n 50 test_item_sales_2y_FAB_PROD_8.py
+all 70 users failed
