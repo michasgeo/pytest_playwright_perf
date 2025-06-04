@@ -5,6 +5,17 @@ def parse_csv_files(root_folder):
     records = []
 
     for dirpath, _, filenames in os.walk(root_folder):
+        rel_path = os.path.relpath(dirpath, root_folder)
+        parts = rel_path.split(os.sep)
+
+        if len(parts) >= 2 and '=' in parts[1]:
+            parent = parts[0]
+            child = parts[1].split('=')[1]
+
+        #     print("Parent:", parent)
+        #     print("Child:", child)
+        # print(f"Processing directory: {rel_path}")
+        # print(f"dirpath found: {dirpath}")
         for file in filenames:
             if file.endswith(".csv"):
                 full_path = os.path.join(dirpath, file)
@@ -32,7 +43,7 @@ def parse_csv_files(root_folder):
                     else:
                         status = status_raw.strip()
 
-                    records.append(f"{start_time} - {user} - {status} - {duration}")
+                    records.append(f"{parent},{child},{start_time},{user},{status},{duration}")
 
     return records
 
